@@ -1,3 +1,4 @@
+
 Feature: Aprender Cucumber
 	Como um aluno
 	Eu quero aprender a utilizar Cucumber
@@ -5,6 +6,6 @@ Feature: Aprender Cucumber
 
 
 Scenario: Deve executar especificação
-	Given que criei o arquivo corretamente
-	When executá-lo
-	Then a especificação deve finalizar com sucesso
+	Dado que criei o arquivo corretamente
+	Qunado executá-lo
+	Então a especificação deve finalizar com sucesso
