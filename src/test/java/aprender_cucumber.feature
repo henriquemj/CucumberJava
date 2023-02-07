@@ -1,3 +1,4 @@
+# language: pt-br
 
 Feature: Aprender Cucumber
 	Como um aluno
@@ -7,5 +8,5 @@ Feature: Aprender Cucumber
 
 Scenario: Deve executar especificação
 	Dado que criei o arquivo corretamente
-	Qunado executá-lo
+	Quando executá-lo
 	Então a especificação deve finalizar com sucesso
