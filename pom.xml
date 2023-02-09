@@ -3,18 +3,26 @@
 	<groupId>br.ce.wcaquino</groupId>
 	<artifactId>CursoCucumber</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencies>
+	<dependencies> 
+		
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>7.11.1</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>7.11.1</version>
 			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.2.5</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -1,4 +1,4 @@
-# language: pt-br
+# language: pt
 
 Feature: Aprender Cucumber
 	Como um aluno
