@@ -1,3 +1,5 @@
+import org.junit.Assert;
+
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
@@ -30,9 +32,6 @@ public class AprenderCucumber {
 
 	@Então("^o valor do contador será (\\d+)$")
 	public void o_valor_do_contador_será(int arg1) throws Throwable {
-	    System.out.println(arg1);
-	    System.out.println(contador);
-	    System.out.println(arg1 == contador);
+	    Assert.assertEquals(arg1, contador);
 	}
-	
 }
